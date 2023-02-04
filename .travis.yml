@@ -9,4 +9,3 @@ before_install:
 
 script:
   - docker run -e CI=true sftwri/docker-react2 npm run test
-
